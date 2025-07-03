@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.output-box {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#password {
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.output-box button {
+  padding: 0 10px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.settings label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+}
+
+#generateBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
